@@ -39,7 +39,9 @@ cd contracts
 forge test
 
 anvil --chain-id 31337 --port 8545
-PRIVATE_KEY=0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 \
+cp .env.example .env
+# Set PRIVATE_KEY to a local Anvil account from the anvil startup output.
+STARTING_PRICE=10000000000000000 \
   forge script script/DeployLocal.s.sol:DeployLocal \
   --rpc-url http://127.0.0.1:8545 --broadcast
 ```
