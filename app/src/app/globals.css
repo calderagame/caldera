@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: #070707;
+  color: #f3f1ec;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(255, 106, 0, 0.35);
+  color: #f3f1ec;
+}
+
+/* Hard edges — spacecraft HUD, not SaaS cards */
+button,
+a {
+  border-radius: 0;
+}

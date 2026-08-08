@@ -1,0 +1,28 @@
+# Secrets / local env
+.env
+.env.*
+!.env.example
+.github-credentials
+.vercel-credentials
+.vercel
+app/.env.local
+app/.vercel
+
+# App
+app/node_modules
+app/.next
+app/out
+app/tsconfig.tsbuildinfo
+
+# Foundry
+contracts/.env
+contracts/cache/
+contracts/out/
+contracts/broadcast/
+contracts/lib/**/cache/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
