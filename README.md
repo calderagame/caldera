@@ -1,12 +1,15 @@
 # Caldera
 
+[![tests](https://github.com/calderagame/caldera/actions/workflows/tests.yml/badge.svg)](https://github.com/calderagame/caldera/actions/workflows/tests.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-1d5b42.svg)](./LICENSE)
+
 Territory conquest on Robinhood Chain.
 
 **7 territories.** Seize with ETH. Mine **CLDR** from buybacks. Exit when outbid.
 
 - Site: [calderagame.xyz](https://calderagame.xyz)
 - X: [@calderagamexyz](https://x.com/calderagamexyz)
-- Token launch: [Stonks](https://stonkbrokers.io/marketplace) (ETH-denominated)
+- Token launch: [Stonk Launcher](https://www.stonkbrokers.cash/launcher) (ETH pair)
 
 ## Repository
 
@@ -15,7 +18,7 @@ Territory conquest on Robinhood Chain.
 ├── app/          # Next.js — globe HUD + command surface
 ├── contracts/    # Foundry — Game, Miner, Stake, Buyback (LAND_COUNT = 7)
 ├── docs/         # Protocol reference
-└── LAUNCH.md     # Stonks fair-launch → deploy → app env
+└── LAUNCH.md     # Stonk Launcher → deploy → app env
 ```
 
 ## Territories
@@ -65,6 +68,8 @@ npm run dev                  # http://localhost:3003
 | Protocol | 2% |
 
 Genesis floor: **0.01 ETH**. Floor steps **+10%** per seize. See [docs/PROTOCOL.md](docs/PROTOCOL.md) and in-app `/docs`.
+
+Mainnet contract addresses: pending Stonk Launcher CLDR + forge deploy (see [LAUNCH.md](LAUNCH.md)).
 
 ## Brand
 
