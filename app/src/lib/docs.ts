@@ -25,7 +25,7 @@ export const DOC_SECTIONS: DocSection[] = [
       },
       {
         type: "p",
-        text: "CLDR is fair-launched on Stonks. The protocol does not pre-fund a mining vault and does not mint a team allocation. Mining rewards come only from buybacks funded by seize ETH.",
+        text: "CLDR is fair-launched on Stonk Launcher. The protocol does not pre-fund a mining vault and does not mint a team allocation. Mining rewards come only from buybacks funded by seize ETH.",
       },
       {
         type: "ul",
@@ -249,7 +249,7 @@ export const DOC_SECTIONS: DocSection[] = [
   {
     id: "token",
     title: "CLDR & fair launch",
-    lead: "CLDR is the mining and staking asset — not the seize currency. Live on Stonks.",
+    lead: "CLDR is the mining and staking asset — not the seize currency. Live on Stonk Launcher.",
     blocks: [
       {
         type: "table",
@@ -258,27 +258,27 @@ export const DOC_SECTIONS: DocSection[] = [
           ["Ticker", "CLDR (Caldera)"],
           ["Role", "Mining rewards + stake collateral"],
           ["Seize currency", "ETH (not CLDR)"],
-          ["Launch venue", "Stonks Brokers (Robinhood Chain)"],
+          ["Launch venue", "Stonk Launcher (Robinhood Chain)"],
           ["Team allocation", "None in protocol contracts"],
           ["Mining prefund", "None — vault is buyback-funded only"],
         ],
       },
       {
         type: "p",
-        text: "CLDR is fair-launched on Stonks. The game stack points at that token only — no team mint inside Caldera contracts. Seize buybacks purchase CLDR from the open market to fund the mining vault.",
+        text: "CLDR is fair-launched on Stonk Launcher. The game stack points at that token only — no team mint inside Caldera contracts. Seize buybacks purchase CLDR from the open market to fund the mining vault.",
       },
     ],
   },
   {
     id: "addresses",
     title: "Live addresses",
-    lead: "Robinhood Chain (4663). Fill after Stonks CLDR + forge deploy — placeholders until then.",
+    lead: "Robinhood Chain (4663). Fill after Stonk Launcher CLDR + forge deploy — placeholders until then.",
     blocks: [
       {
         type: "table",
         headers: ["Role", "Address"],
         rows: [
-          ["CLDR token", "— (Stonks CA pending)"],
+          ["CLDR token", "— (Stonk Launcher CA pending)"],
           ["Game", "—"],
           ["Miner", "—"],
           ["Stake", "—"],
@@ -302,7 +302,7 @@ export const DOC_SECTIONS: DocSection[] = [
         type: "table",
         headers: ["Contract", "Responsibility"],
         rows: [
-          ["CLDR (Stonks)", "Fair-launch ERC-20 — game never mints supply"],
+          ["CLDR (Stonk Launcher)", "Fair-launch ERC-20 — game never mints supply"],
           ["CalderaGame", "Land state, ETH seize, split routing"],
           ["CalderaBuyback", "Queue ETH, swap to CLDR, fund miner"],
           ["CalderaMiner", "Weight accounting, CLDR claims, idle decay"],

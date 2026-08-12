@@ -53,7 +53,7 @@ CLDR launches on [Stonk Launcher](https://www.stonkbrokers.cash/launcher). See [
 
 ### Production addresses (Robinhood `4663`)
 
-Pending Stonks CLDR + forge deploy.
+Pending Stonk Launcher CLDR + forge deploy.
 
 | Role | Address |
 |------|---------|
@@ -72,4 +72,4 @@ Pending Stonks CLDR + forge deploy.
 | CalderaBuyback | ETH→CLDR → vault |
 | CalderaMiner | Land mining claims |
 | CalderaStake | CLDR stake / ETH claims |
-| CLDR (Stonks) | Fair-launch ERC-20 — not minted by the game |
+| CLDR (Stonk Launcher) | Fair-launch ERC-20 — not minted by the game |
