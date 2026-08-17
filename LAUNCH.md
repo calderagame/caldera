@@ -2,7 +2,7 @@
 
 Ticker: **CLDR**. Board: **7 territories** (Ember, Ashfall, Ridge, Basin, Crown, Forge, Spire).
 
-Token launch pad: **[Stonk Launcher](https://www.stonkbrokers.cash/launcher)** (Robinhood Chain). Prefer an **ETH** bonding-curve launch so seize buybacks can swap ETH→CLDR after graduation.
+Token launch pad: **[Stonk Launcher](https://www.stonkbrokers.cash/launcher)** (Robinhood Chain). Caldera is the first game on the pad. Prefer an **ETH** bonding-curve launch so seize buybacks can swap ETH→CLDR after graduation.
 
 ## Economy
 

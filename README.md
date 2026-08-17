@@ -7,9 +7,11 @@ Territory conquest on Robinhood Chain.
 
 **7 territories.** Seize with ETH. Mine **CLDR** from buybacks. Exit when outbid.
 
+Caldera is the first game on [Stonk Launcher](https://www.stonkbrokers.cash/launcher) — ETH bonding curve, no team allocation.
+
 - Site: [calderagame.xyz](https://calderagame.xyz)
 - X: [@calderagamexyz](https://x.com/calderagamexyz)
-- Token launch: [Stonk Launcher](https://www.stonkbrokers.cash/launcher) (ETH pair)
+- Launch: [Stonk Launcher](https://www.stonkbrokers.cash/launcher)
 
 ## Repository
 
@@ -69,7 +71,7 @@ npm run dev                  # http://localhost:3003
 
 Genesis floor: **0.01 ETH**. Floor steps **+10%** per seize. See [docs/PROTOCOL.md](docs/PROTOCOL.md) and in-app `/docs`.
 
-Mainnet contract addresses: pending Stonk Launcher CLDR + forge deploy (see [LAUNCH.md](LAUNCH.md)).
+Mainnet game addresses: fill after the CLDR CA is live (see [LAUNCH.md](LAUNCH.md)).
 
 ## Brand
 

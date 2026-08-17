@@ -49,7 +49,7 @@ Board → Territory → Seize (ETH) → Mine CLDR → Get Outbid → Repeat
 
 ## Fair launch
 
-CLDR launches on [Stonk Launcher](https://www.stonkbrokers.cash/launcher). See [LAUNCH.md](../LAUNCH.md).
+CLDR is the first game token on [Stonk Launcher](https://www.stonkbrokers.cash/launcher) — ETH pair, bonding curve, no team mint. See [LAUNCH.md](../LAUNCH.md).
 
 ### Production addresses (Robinhood `4663`)
 
